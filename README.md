@@ -36,6 +36,18 @@ Before running Java in VS Code, make sure you have:
 ## ▶️ Running Your Java Program  
 
 ### Example: `Main.java`  
+
+---
+## 📥 Cloning and Pulling the Repository
+
+Instead of downloading the repository directly, it is recommended to use **GitHub commands**.  
+This way, you can easily pull any future updates without downloading the whole project again.
+
+### 🔹 Clone the Repository (one-time setup)
+Open your terminal and run:
+```bash
+git clone https://github.com/JurielUC/java-oop-examples.git
+
 ```java
 public class Main {
     public static void main(String[] args) {

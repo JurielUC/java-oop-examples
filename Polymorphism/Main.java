@@ -1,21 +1,21 @@
 package Polymorphism;
 
 // Parent class
-class Animal {
+class Pet {
     void sound() {
-        System.out.println("Some generic animal sound");
+        System.out.println("Some generic animal sound.");
     }
 }
 
 // Subclasses override the sound()
-class Dog extends Animal {
+class Dog extends Pet {
     @Override
     void sound() {
         System.out.println("Dog barks: Woof!");
     }
 }
 
-class Cat extends Animal {
+class Cat extends Pet {
     @Override
     void sound() {
         System.out.println("Cat meows: Meow!");
@@ -25,7 +25,7 @@ class Cat extends Animal {
 public class Main {
     public static void main(String[] args) {
         // Polymorphism: Parent type reference, Child type object
-        Animal myAnimal;
+        Pet myAnimal;
 
         myAnimal = new Dog();
         myAnimal.sound();  // "Dog barks: Woof!"

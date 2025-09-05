@@ -1,6 +1,6 @@
 package Example;
 
-class Student { // classs
+class Student { // class
     String firstName, lastName; // attributes
     // String lastName;
     int age;
@@ -26,6 +26,6 @@ public class Main {
         student2.age = 21;
 
         student1.learn();
-        student1.sleep();
+        student2.sleep();
     }
 }

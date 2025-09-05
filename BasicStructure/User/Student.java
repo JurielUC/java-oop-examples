@@ -29,7 +29,7 @@ public class Student {
         System.out.println("\nW/O Placeholder: Name: "+ s1.name +" Age: "+s1.age);
 
         // Statement: call method to display info
-        // s1.displayInfo();
+        s1.displayInfo();
 
         // Using imported Scanner (example of library usage)
         Scanner scanner = new Scanner(System.in);

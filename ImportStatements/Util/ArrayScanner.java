@@ -9,27 +9,31 @@ import java.util.*;
 /** Using ArrayList (Collections framework) and Scanner (user input). */
 public class ArrayScanner {
     public static void main(String[] args) {
-        // Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         /** Adding the names manually */
-        // List<Integer> names = new ArrayList<>();
-        // names.add(10);
-        // names.add(11);
-        // names.add(12);
+        // List<String> names = new ArrayList<>();
+        // names.add("Alice");
+        // names.add("Bob");
+        // names.add("Charlie");
 
         // ["Alice", "Bob", "Charlie", "Juriel", "John"]
 
         /** Initialize with Arrays.asList() */
-        // List<Integer> names = new ArrayList<>(Arrays.asList(13, 45, 76));
+        List<String> names = new ArrayList<>(Arrays.asList("Alice", "Bob", "Charlie"));
 
         /** Use List.of() (Java 9+) */
-        // List<String> names = new ArrayList<>(List.of("Alice", "Bob", "Charlie"));
+        // List<String> names = new ArrayList<>(List.of("Alice", "Bob", "Charlie", "Juriel"));
 
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter your age: ");
-        int age = sc.nextInt();
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter your name: ");
+        // String name = sc.nextLine();
 
-        System.out.println("Age: " + age);  
+        System.out.print("Enter your name: ");
+        String name = sc.nextLine();
+        names.add(name);
+
+        System.out.println("names: " + names);
         sc.close();
     }
 }

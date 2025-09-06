@@ -19,6 +19,8 @@ public class IfElseIfElseExample {
         } else {
             System.out.println("Grade: F");
         }
+
+        number.close();
     }
 }
 

@@ -2,12 +2,11 @@ package ControlFlow.Conditionals;
 
 public class IfElseExample {
     public static void main(String[] args) {
-        int number = 3;
+        int number = 4;
 
-        if (number % 2 == 0) {
+        if (number % 2 == 0) 
             System.out.println("The number is even.");
-        } else {
+        else 
             System.out.println("The number is odd.");
-        }
     }
 }

@@ -38,5 +38,7 @@ public class SwitchCaseExample {
         }
 
         System.out.println("Day is: " + dayName);
+
+        scanner.close();
     }
 }

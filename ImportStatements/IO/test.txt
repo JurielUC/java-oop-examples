@@ -1,1 +1,1 @@
-Hello, World.
+This is OOP. Lorem ipsum dolor set amet.

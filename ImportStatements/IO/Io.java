@@ -12,7 +12,7 @@ public class Io {
         try {
             // Write to file
             FileWriter writer = new FileWriter("./ImportStatements/IO/output.txt");
-            writer.write("Hello, 2106!");
+            writer.write("Hello, 2105. Test!");
             writer.close();
 
             // Read from file

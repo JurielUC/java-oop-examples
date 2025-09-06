@@ -3,7 +3,7 @@ package ControlFlow.CompoundConditions;
 public class OrCondition {
     public static void main(String[] args) {
         boolean hasTicket = false;
-        boolean isVIP = false;
+        boolean isVIP = true;
 
         if (hasTicket || isVIP) {
             System.out.println("You can watch the concert.");

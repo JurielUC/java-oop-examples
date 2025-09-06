@@ -7,13 +7,13 @@ import java.net.*;
 public class APIConnection {
     public static void main(String[] args) {
         try {
-            // Step 1: Define Laravel API endpoint
+            // Step 1: Define API endpoint
             URI uri = URI.create("https://api.ais-batstateu.site/api/user/1");
             URL url = uri.toURL();
 
             // Step 2: Open connection
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-            conn.setRequestMethod("GET"); // Get, Post, Put, Delete
+            conn.setRequestMethod("GET"); // R-Get, C-Post, U-Put, D-Delete - CRUD
             conn.setRequestProperty("Accept", "application/json");
             conn.setRequestProperty("User-Agent", "Mozilla/5.0");
 
